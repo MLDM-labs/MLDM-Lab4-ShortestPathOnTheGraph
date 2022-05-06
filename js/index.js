@@ -2,7 +2,7 @@
 function send(message)
 {
     $.ajax({
-        url: 'php/test.php',
+        url: 'php/shortestPath.php',
         type: 'POST',
         data: message,
         success: function(data){
