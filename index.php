@@ -2,12 +2,6 @@
 <html>
 <head>
     <title>MLDM-Lab4-ShortestPathOnTheGraph</title>
-    <script
-            src = "https://code.jquery.com/jquery-3.6.0.js"
-            integrity = "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-            crossOrigin = "anonymous" >
-    </script>
-    <script src = "js/index.js"></script>
 </head>
 <body>
     <textarea id = "matrix_adjacency" cols = "30" rows = "10"></textarea><br>
@@ -30,8 +24,12 @@
     <p class = "output"></p>
 
     <div id = "divForOutput"></div>
-
-
+    <script
+            src = "https://code.jquery.com/jquery-3.6.0.js"
+            integrity = "sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossOrigin = "anonymous" >
+    </script>
+    <script src = "js/index.js"></script>
 
 </body>
 </html>
