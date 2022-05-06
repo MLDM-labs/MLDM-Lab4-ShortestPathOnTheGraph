@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>MLDM-Lab4-ShortestPathOnTheGraph</title>
+    <link rel = "stylesheet" href = "css/index.css">
 </head>
 <body>
+    <h1>Shortest path</h1>
     <textarea id = "matrix_adjacency" cols = "30" rows = "10"></textarea><br>
     <br>
     <input type = "text" id = "input_source" size = "9">
@@ -30,6 +32,5 @@
             crossOrigin = "anonymous" >
     </script>
     <script src = "js/index.js"></script>
-
 </body>
 </html>

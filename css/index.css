@@ -1,0 +1,48 @@
+html
+{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    text-align: center;
+}
+
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+button
+{
+    padding: 8px 15px;
+    border-radius: 15px;
+    border-width: 0;
+    background-color: #0090E1;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    width: 150px;
+}
+
+button:hover
+{
+    background-color: #0082CD;
+}
+
+button:active
+{
+    background-color: #007CC4;
+}
