@@ -7,9 +7,9 @@
 <body>
     <h1>Shortest path</h1>
     <textarea id = "matrix_adjacency" cols = "30" rows = "10" placeholder = "Input example:
-1 * 1
-* * *
-* 1 *"></textarea><br>
+1 0 1
+0 0 0
+0 1 0"></textarea><br>
     <br>
     <input type = "text" id = "input_source" size = "9" placeholder = "From">
     <input type = "text" id = "input_destination" size = "9" placeholder = "To"><br><br>
