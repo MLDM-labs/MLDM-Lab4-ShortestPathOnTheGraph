@@ -6,10 +6,13 @@
 </head>
 <body>
     <h1>Shortest path</h1>
-    <textarea id = "matrix_adjacency" cols = "30" rows = "10"></textarea><br>
+    <textarea id = "matrix_adjacency" cols = "30" rows = "10" placeholder = "Input example:
+1 * 1
+* * *
+* 1 *"></textarea><br>
     <br>
-    <input type = "text" id = "input_source" size = "9">
-    <input type = "text" id = "input_destination" size = "9"><br><br>
+    <input type = "text" id = "input_source" size = "9" placeholder = "From">
+    <input type = "text" id = "input_destination" size = "9" placeholder = "To"><br><br>
     <button id = "getShortestPath" onclick = "
     let matrix_adjacency = document.getElementById('matrix_adjacency').value;
     let source = document.getElementById('input_source').value;
